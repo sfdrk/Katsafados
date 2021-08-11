@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: 'Lato bold';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato light';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato regular';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato black';
+    src: url('../fonts/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-x:before {
+  content: "\e914";
+  color: #4a5568;
+}
+.icon-color-swatch:before {
+  content: "\e902";
+  color: #4a5568;
+}
+.icon-truck:before {
+  content: "\e903";
+}
+.icon-tag:before {
+  content: "\e904";
+  color: #4a5568;
+}
+.icon-shopping-cart:before {
+  content: "\e905";
+  color: #4a5568;
+}
+.icon-search:before {
+  content: "\e906";
+  color: #4a5568;
+}
+.icon-phone:before {
+  content: "\e907";
+  color: #4a5568;
+}
+.icon-office-building:before {
+  content: "\e908";
+  color: #4a5568;
+}
+.icon-menu:before {
+  content: "\e909";
+  color: #4a5568;
+}
+.icon-identification:before {
+  content: "\e90a";
+}
+.icon-heart:before {
+  content: "\e90b";
+  color: #4a5568;
+}
+.icon-dropdown:before {
+  content: "\e90c";
+}
+.icon-document-text:before {
+  content: "\e90d";
+}
+.icon-badge-check:before {
+  content: "\e900";
+  color: #4a5568;
+}
+.icon-truck1:before {
+  content: "\e901";
+}
+.icon-user:before {
+  content: "\e90e";
+  color: #4a5568;
+}
+.icon-shopping-cartSolid:before {
+  content: "\e90f";
+  color: #4b5563;
+}
+.icon-chevron-up:before {
+  content: "\e910";
+  color: #4a5568;
+}
+.icon-chevron-right:before {
+  content: "\e911";
+  color: #4a5568;
+}
+.icon-chevron-left:before {
+  content: "\e912";
+  color: #4a5568;
+}
+.icon-chevron-down:before {
+  content: "\e913";
+  color: #4a5568;
+}
